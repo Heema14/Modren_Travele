@@ -4,7 +4,10 @@ import ReviewSlider from "./ReviewSlider";
 
 const Review = () => {
   return (
-    <section className="py-20 flex items-center justify-center flex-col bg-[#13357b]">
+    <section
+      id="review"
+      className="py-20 flex items-center justify-center flex-col bg-[#13357b]"
+    >
       <div className="w-[80%] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-10">
         <div data-aos="zoom-in">
           <h1 className="text-2xl font-semibold text-white">

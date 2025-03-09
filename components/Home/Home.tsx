@@ -8,6 +8,7 @@ import WhyChoose from "./WhyChoose/WhyChoose";
 import Review from "./Reviews/Review";
 import News from "./News/News";
 import NewsLetter from "./NewsLetter/NewsLetter";
+import Accordion from "./Accordion/Accordion";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -29,6 +30,7 @@ const Home = () => {
       <Hotel />
       <WhyChoose />
       <Review />
+      <Accordion />
       <News />
       <NewsLetter />
     </main>

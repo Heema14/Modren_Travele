@@ -96,20 +96,20 @@ const Footer = () => {
       {/* bottom part */}
       <div className="mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
         <p className="text-center md:text-left">
-          Copyright &copy; 2025 WebDev. All rights By (❤️ Ibrahim Yassin ❤️).
+          Copyright &copy; 2024 WebDev. All rights By (❤️ Ibrahim Yassin ❤️).
         </p>
         <div className="flex items-center space-x-4 mt-4 md:mt-0">
           <span>Social: </span>
-          <span className="text-gray-500 duration-200 text-lg cursor-pointer hover:text-gray-800">
+          <span className="text-blue-600 duration-200 text-lg cursor-pointer hover:text-white w-7 h-7 flex justify-center items-center flex-col border border-gray-500 rounded-full bg-white hover:bg-blue-600">
             <FaFacebook />
           </span>
-          <span className="text-gray-500 duration-200 text-lg cursor-pointer hover:text-gray-800">
+          <span className="text-red-600 duration-200 text-lg cursor-pointer hover:text-white w-7 h-7 flex justify-center items-center flex-col border border-gray-500 rounded-full bg-white hover:bg-red-600">
             <FaInstagram />
           </span>
-          <span className="text-gray-500 duration-200 text-lg cursor-pointer hover:text-gray-800">
+          <span className="text-blue-600 duration-200 text-lg cursor-pointer hover:text-white w-7 h-7 flex justify-center items-center flex-col border border-gray-500 rounded-full bg-white hover:bg-blue-600">
             <FaTwitter />
           </span>
-          <span className="text-gray-500 duration-200 text-lg cursor-pointer hover:text-gray-800">
+          <span className="text-gray-600 duration-200 text-lg cursor-pointer hover:text-white w-7 h-7 flex justify-center items-center flex-col border border-gray-500 rounded-full bg-white hover:bg-gray-600">
             <FaGithub />
           </span>
         </div>

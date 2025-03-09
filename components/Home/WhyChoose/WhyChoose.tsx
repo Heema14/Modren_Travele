@@ -4,7 +4,7 @@ import WhyChooseCard from "./WhyChooseCard";
 
 const WhyChoose = () => {
   return (
-    <section className="pt-14 pb-16">
+    <section id="whyChoose" className="pt-14 pb-16">
       <SectionHeader title="Why Choose Us" />
       <div className="grid mx-auto w-[80%] gap-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12 place-items-center items-center">
         <div data-aos="fade-up" data-aos-anchor-placement="top-center">

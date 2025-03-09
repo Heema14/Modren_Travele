@@ -11,3 +11,14 @@
 html {
   scroll-behavior: smooth;
 }
+
+.txtBG {
+  background: linear-gradient(to right, #9a71ee 0%, white 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accordion {
+  background: linear-gradient(to right, #593b96 0%, rgb(75, 81, 94) 100%);
+}

@@ -4,7 +4,7 @@ import NewsCard from "./NewsCard";
 
 const News = () => {
   return (
-    <section className="py-16">
+    <section id="news" className="py-16">
       <SectionHeader title="Exciting Travel News for You" />
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 items-center mt-12">
         <div data-aos="fade-left" data-aos-anchor-placement="top-center">

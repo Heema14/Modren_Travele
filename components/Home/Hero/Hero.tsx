@@ -1,10 +1,11 @@
 import SearchBox from "@/components/Helper/SearchBox";
 import Link from "next/link";
 import React from "react";
+import TypeWriterEffect from "./TypeWriterEffect";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[120vh] sm:h-screen">
+    <section id="hero" className="relative w-full h-[120vh] sm:h-screen">
       <div className="absolute top-0 left-0 w-full h-full bg-gray-800 opacity-70"></div>
       <video
         src="/images/hero1.mp4"
@@ -16,12 +17,11 @@ const Hero = () => {
       ></video>
 
       <div className="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-        <div className="flex items-center justify-center flex-col w-full h-full">
-          <div data-aos="fade-up">
-            <h1 className="text-2xl mb-4 md:mb-3 text-center md:text-4xl lg:text-[45px] tracking-[0.7rem] text-white uppercase font-bold">
-              Lets Enjoy The Nature
-            </h1>
-            <p className="md:text-base text-center text-lg text-white font-normal">
+        <div className="flex items-center justify-center flex-col w-full h-full mt-20 md:mt-0">
+          <div data-aos="fade-up" className="text-center">
+            <TypeWriterEffect />
+
+            <p className="md:text-base text-lg text-white font-normal">
               Get the best prices on 2,000,000+ properties, World Wide
             </p>
           </div>

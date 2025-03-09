@@ -3,33 +3,43 @@
 export const navLinks = [
   {
     id: 1,
-    url: "#",
+    url: "#hero",
     label: "Home",
   },
   {
     id: 2,
-    url: "#",
-    label: "About",
+    url: "#hotel",
+    label: "Hotel",
   },
   {
     id: 3,
-    url: "#",
+    url: "#destination",
     label: "Destination",
   },
   {
     id: 4,
-    url: "#",
-    label: "Blog",
+    url: "#whyChoose",
+    label: "Why Choose",
   },
   {
     id: 5,
-    url: "#",
-    label: "Dashboard",
+    url: "#review",
+    label: "Review",
   },
   {
     id: 6,
-    url: "#",
-    label: "Contact",
+    url: "#accordion",
+    label: "Accordion",
+  },
+  {
+    id: 7,
+    url: "#news",
+    label: "News",
+  },
+  {
+    id: 8,
+    url: "#newsLetter",
+    label: "News Letter",
   },
 ];
 
