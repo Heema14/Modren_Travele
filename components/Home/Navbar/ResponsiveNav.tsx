@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 
-export function ResponsiveNav() {
+const ResponsiveNav = () => {
   const [showNav, setShowNav] = useState(false);
   const handelNavShow = () => setShowNav(true);
   const handelNavClose = () => setShowNav(false);
@@ -17,3 +17,4 @@ export function ResponsiveNav() {
   );
 };
 
+export default ResponsiveNav;
