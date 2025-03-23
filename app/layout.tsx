@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import ResponsiveNav from "@/components/Home/NavBar/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
 
@@ -23,7 +22,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fonts.className} antialiased`}>
-        <ResponsiveNav />
         {children}
         <Footer />
         <ScrollToTop />
