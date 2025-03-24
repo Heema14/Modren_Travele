@@ -1,8 +1,6 @@
 Domains:
 
-[https://tack-dev.vercel.app/](https://modren-travele-n06lo8pqc-heema20s-projects.vercel.app/)
-
-[https://tack-dev-heema20s-projects.vercel.app/](https://modren-travele-git-main-heema20s-projects.vercel.app/)
+https://modren-travele-vil4-dajp3g8d8-heema20s-projects.vercel.app/
 
 
 ## Getting Started
